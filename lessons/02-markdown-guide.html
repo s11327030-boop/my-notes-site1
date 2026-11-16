@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02. Markdown 常用語法整理 - 我的數位學習筆記庫</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="../index.html">← 返回筆記列表</a>
+    </nav>
+
+    <article class="lesson-content">
+      <header>
+        <span class="tag">文件排版</span>
+        <h1>02. Markdown 常用語法整理</h1>
+        <p class="meta">更新日期：2026-11-16</p>
+      </header>
+
+      <section>
+        <h2>標題與文字強調</h2>
+        <p>Markdown 是一種輕量級標記語言，透過簡單的符號即可完成結構化排版，也是撰寫 README.md 與 AGENTS.md 的標準格式。</p>
+        <blockquote>重點提示：井字號（#）與文字之間必須保留一個半形空格，標題語法才會正確生效。</blockquote>
+        <pre><code># 一級標題 (H1)
+## 二級標題 (H2)
+### 三級標題 (H3)
+
+**粗體重點文字**
+*斜體輔助文字*</code></pre>
+      </section>
+
+      <section>
+        <h2>清單與程式碼區塊</h2>
+        <p>整理筆記或步驟說明時，善用無序清單、有序清單與程式碼區塊能大幅提升技術文件的閱讀清晰度。</p>
+        <pre><code>- 無序清單項目一
+- 無序清單項目二
+
+1. 有序步驟一
+2. 有序步驟二
+
+`行內程式碼`
+
+```python
+print("多行程式碼區塊")
